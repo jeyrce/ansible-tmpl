@@ -1,0 +1,24 @@
+hosts:
+  host-191:
+    ansible_connection: local
+    ansible_ssh_host: 10.0.35.191
+    ansibel_ssh_port: 22
+    ansible_ssh_user: uos
+    ansible_ssh_pass: 12345
+    ansible_sudo_pass: Uos12345
+    ansible_python_interpreter: /usr/bin/python3.7
+  host-148:
+    ansible_ssh_host: 10.0.35.148
+    ansible_ssh_port: 22
+    ansible_ssh_user: mode
+    ansible_ssh_pass: Uniontech@2021
+    ansible_sudo_pass: Uniontech@2021
+    ansible_python_interpreter: /usr/bin/python3.6
+  host-181:
+    ansible_ssh_host: 10.20.15.181
+    ansibel_ssh_port: 22
+    ansible_ssh_user: uos
+    ansible_ssh_pass: 12345
+    ansible_sudo_pass: Uos12345
+    ansible_python_interpreter: /usr/bin/python3.7
+

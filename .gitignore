@@ -1,0 +1,10 @@
+### Ansible template
+*.retry
+*.tmp
+*.swap
+*.swp
+*.log
+*.so
+*.exe
+.idea/
+_*/

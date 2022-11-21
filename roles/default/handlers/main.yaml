@@ -1,0 +1,4 @@
+#当发生改变时执行，通常用于重启服务 http://ansible.com.cn/docs/playbooks_intro.html#handlers
+handlers:
+  - name: test handler
+    shell: "date > /tmp/test.txt"

@@ -1,0 +1,11 @@
+# 默认变量定义,优先级最低，可以被任意高级别变量覆盖,变量优先级:
+# http://ansible.com.cn/docs/playbooks_roles.html?highlight=files#task-include-files-and-encouraging-reuse
+#0、命令行任意参数 -e
+#1、inventory中ansible相关变量
+#2、playbook、include
+#3、roles/vars
+#4、inventory普通变量
+#5、facts
+#6、roles/defaults
+
+version: latest
